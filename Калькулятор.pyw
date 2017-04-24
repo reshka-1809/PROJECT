@@ -83,7 +83,7 @@ t1.pack()
 e1=Entry(f1)
 e1.pack()
 
-t2=Label(f2,text='Введите второе число')
+t2=Label(f2,text='Введите второе число,n')
 t2.pack()
 
 
@@ -122,7 +122,7 @@ btn6=Button(f10,text='Корень квадратный',font='Arial 14')
 btn6.pack(pady=5)
 btn6.bind('<Button-1>',srt)
 
-btn7=Button(f11,text='1/Х',font='Arial 14')
+btn7=Button(f11,text='1/n',font='Arial 14')
 btn7.pack(pady=5)
 btn7.bind('<Button-1>',drob)
 
